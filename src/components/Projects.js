@@ -21,7 +21,7 @@ export default function Projects() {
       <h2 className="h2">Selected work</h2>
       <div className="grid grid2" style={{ marginTop: 40 }}>
         {projects.map((project) => (
-          <article key={project.name} className="card col" style={{ gap: 14 }}>
+          <article key={project.name} className="card col reveal" style={{ gap: 14 }}>
             <ProjectImage project={project} />
             <div className="fx ac jb">
               <span className="mono accent fs13">{project.category}</span>
@@ -67,7 +67,7 @@ export default function Projects() {
         {moreProjects.map((project) => (
           <a
             key={project.name}
-            className="card plink fx ac jb gap16 wrap"
+            className="card plink fx ac jb gap16 wrap reveal"
             style={{ padding: "16px 22px" }}
             href={project.url}
             target="_blank"

@@ -1,6 +1,6 @@
 # Alamin — Senior Full-Stack Engineer
 
-> Developer Alamin (Alamin developer) — senior full-stack engineer specializing in NestJS, React, Next.js, MongoDB, AWS, SaaS, and AI/ML web development.
+> Alamin — senior full-stack engineer specializing in NestJS, React, Next.js, MongoDB, AWS, SaaS, and AI/ML web development.
 
 ## About
 
@@ -29,11 +29,11 @@ Expertise: NestJS, React, Next.js, TypeScript, MongoDB, AWS (EC2/S3/SES), Stripe
 ## Contact
 
 - Email: dev.alamin@gmail.com
-- GitHub: https://github.com/alamin
+- GitHub: https://github.com/Alaminpk1
 - LinkedIn: https://www.linkedin.com/in/alamin/
 - Twitter/X: https://x.com/alamin
 - Portfolio: https://alamin.dev
 
 ## Topics
 
-NestJS, React, Next.js, TypeScript, MongoDB, AWS, SaaS, AI/ML, OpenAI, web development, full-stack developer, developer Alamin, multi-tenant architecture, Stripe, Socket.IO, NLP, RAG, performance engineering, MERN stack
+NestJS, React, Next.js, TypeScript, MongoDB, AWS, SaaS, AI/ML, OpenAI, web development, full-stack developer, multi-tenant architecture, Stripe, Socket.IO, NLP, RAG, performance engineering, MERN stack

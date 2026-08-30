@@ -9,7 +9,7 @@ export default function Experience() {
         {experience.map((job) => (
           <article
             key={`${job.company}-${job.period}`}
-            className="tline"
+            className="tline reveal"
             style={{ paddingBottom: 8 }}
           >
             <span

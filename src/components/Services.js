@@ -7,7 +7,7 @@ export default function Services() {
       <h2 className="h2">Services</h2>
       <div className="grid grid3" style={{ marginTop: 40 }}>
         {services.map((service) => (
-          <article key={service.id} className="card col" style={{ gap: 12, padding: 24 }}>
+          <article key={service.id} className="card col reveal" style={{ gap: 12, padding: 24 }}>
             <p className="mono accent fs13 m0">{service.id}</p>
             <h3 className="m0 fs18 fw6 head" style={{ fontSize: 18 }}>
               {service.title}

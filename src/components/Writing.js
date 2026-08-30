@@ -9,7 +9,7 @@ export default function Writing() {
         {writing.map((post) => (
           <a
             key={post.title}
-            className="card plink fx ac jb gap16 wrap"
+            className="card plink fx ac jb gap16 wrap reveal"
             style={{ padding: "18px 22px" }}
             href={post.url}
             target="_blank"

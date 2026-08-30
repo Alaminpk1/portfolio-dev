@@ -1,14 +1,16 @@
 import { site, status } from "@/data/portfolio";
+import HeroGlow from "./HeroGlow";
+import ScrambleText from "./ScrambleText";
 
 export default function Hero() {
   return (
     <section className="sec hero">
-      <div className="glow" />
+      <HeroGlow />
       <div className="grid herogrid posrel">
         <div>
           <p className="mono accent fs13 m0">$ whoami</p>
           <h1 className="hero-h">
-            {site.fullName}
+            <ScrambleText text={site.fullName} />
             <span className="cursor" style={{ marginLeft: 8 }} aria-hidden="true" />
           </h1>
           <p className="mono dim fs15 m0" style={{ marginTop: 14 }}>

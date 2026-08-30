@@ -117,7 +117,13 @@ a:hover {
   }
 
   body,
-  .card {
+  .card,
+  .btn,
+  .tbtn,
+  .chip,
+  .navlink,
+  .footlink,
+  .glow {
     transition: none;
   }
 }
@@ -272,6 +278,7 @@ a:hover {
 .navlink {
   color: var(--dim);
   font-size: 13px;
+  transition: color 0.15s ease;
 }
 
 .navlink:hover {
@@ -286,11 +293,24 @@ a:hover {
   border-radius: 2px;
   padding: 5px 12px;
   font-size: 12px;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 .tbtn:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.tbtn-light {
+  display: none;
+}
+
+:root.light .tbtn-dark {
+  display: none;
+}
+
+:root.light .tbtn-light {
+  display: inline;
 }
 
 .btn {
@@ -302,11 +322,13 @@ a:hover {
   padding: 12px 22px;
   font-size: 14px;
   display: inline-flex;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
 .btn:hover {
   background: var(--tint);
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .btnsolid {
@@ -342,11 +364,13 @@ a:hover {
   background: var(--panel);
   border-radius: 2px;
   padding: 28px;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   border-color: var(--linehov);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -20px rgba(0, 0, 0, 0.5);
 }
 
 .chip {
@@ -356,6 +380,7 @@ a:hover {
   border-radius: 2px;
   padding: 4px 10px;
   font-size: 12px;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 .metric {
@@ -411,13 +436,20 @@ a:hover {
   border-bottom: 1px solid var(--seline);
   padding: 110px 0 96px;
   position: relative;
+  overflow: hidden;
 }
 
 .glow {
-  background: radial-gradient(ellipse 60% 50% at 25% 15%, var(--tint), transparent 65%);
+  background: radial-gradient(circle, var(--tint), transparent 70%);
+  filter: blur(64px);
   pointer-events: none;
   position: absolute;
-  inset: 0;
+  left: 25%;
+  top: 15%;
+  translate: -50% -50%;
+  width: 34vmax;
+  height: 34vmax;
+  transition: left 0.6s ease, top 0.6s ease;
 }
 
 .hero-h {
@@ -500,6 +532,7 @@ a:hover {
 .footlink {
   color: var(--dim);
   font-size: 13px;
+  transition: color 0.15s ease;
 }
 
 .footlink:hover {
@@ -540,6 +573,33 @@ a:hover {
 .grid3 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .term {
+    animation: fade-in-up 0.6s ease both;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: fade-in-up 1s linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
 }
 
 @media (max-width: 760px) {

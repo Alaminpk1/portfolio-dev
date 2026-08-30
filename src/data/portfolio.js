@@ -14,8 +14,8 @@ export const site = {
   bioSuffix:
     ", my own AI analytics product, on the side.",
   email: "dev.alamin@gmail.com",
-  whatsapp: "https://wa.me/8801000000000",
-  github: "https://github.com/alamin",
+  whatsapp: "https://wa.me/8801782488123?text=Hi%20Alamin",
+  github: "https://github.com/Alaminpk1",
   linkedin: "https://www.linkedin.com/in/alamin/",
   twitter: "https://x.com/alamin",
   themeKey: "alamin-theme",
@@ -23,11 +23,9 @@ export const site = {
     siteUrl,
     title: "Alamin — Senior Full-Stack Engineer | NestJS · React · AI/ML",
     description:
-      "Alamin is a senior full-stack engineer and developer Alamin building multi-tenant SaaS with NestJS, React, Next.js, MongoDB, AWS, and AI/ML — creator of RepairCMS and Asklytics.",
+      "Alamin, senior full-stack engineer building multi-tenant SaaS with NestJS, React, Next.js, MongoDB, AWS, and AI/ML — creator of RepairCMS and Asklytics.",
     keywords: [
       "Alamin",
-      "developer Alamin",
-      "Alamin developer",
       "full-stack developer",
       "senior full-stack engineer",
       "NestJS developer",

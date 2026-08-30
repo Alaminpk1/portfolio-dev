@@ -20,7 +20,8 @@ export default function ThemeToggle() {
       aria-label="Switch theme"
       onClick={toggle}
     >
-      --light
+      <span className="tbtn-dark">--light</span>
+      <span className="tbtn-light">--dark</span>
     </button>
   );
 }

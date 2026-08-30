@@ -39,7 +39,7 @@ export const metadata = {
         url: seo.ogImage,
         width: 828,
         height: 465,
-        alt: "Asklytics AI analytics platform by Alamin",
+        alt: seo.title,
       },
     ],
   },
@@ -57,6 +57,15 @@ export const metadata = {
     index: true,
     follow: true,
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#0f131a" },
+    { media: "(prefers-color-scheme: light)", color: "#f7f7f3" },
+  ],
 };
 
 export default function RootLayout({ children }) {

@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="sec hero">
       <HeroGlow />
       <div className="grid herogrid posrel">
-        <div>
+        <div className="herocol">
           <p className="mono accent fs13 m0">$ whoami</p>
           <h1 className="hero-h">
             <ScrambleText text={site.fullName} />

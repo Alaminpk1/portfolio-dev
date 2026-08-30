@@ -38,7 +38,7 @@ export const metadata = {
       {
         url: seo.ogImage,
         width: 828,
-        height: 465,
+        height: 451,
         alt: seo.title,
       },
     ],

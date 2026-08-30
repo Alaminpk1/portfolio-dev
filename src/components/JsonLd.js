@@ -10,7 +10,7 @@ export default function JsonLd() {
       "@type": "Person",
       "@id": personId,
       name: site.fullName,
-      alternateName: ["developer Alamin", "Alamin developer"],
+      alternateName: ["Alamin", "Md Alamin Pramanik"],
       jobTitle: seo.jobTitle,
       url: seo.siteUrl,
       email: `mailto:${site.email}`,

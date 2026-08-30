@@ -2,70 +2,70 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://alamin.dev";
 
 export const site = {
   name: "Alamin",
-  fullName: "Alamin",
-  title: "Senior Full-Stack Engineer",
+  fullName: "Alamin Pramanik",
+  title: "Frontend Developer",
   tagline:
-    "Senior Full-Stack Engineer — NestJS · React · Next.js · MongoDB · AWS · AI/ML",
-  bio: "I build multi-tenant SaaS platforms that serve tens of thousands of businesses — currently leading architecture of",
+    "Frontend Developer — React · Next.js · TypeScript · Redux Toolkit · Tailwind CSS",
+  bio: "I build fast, accessible frontends for multi-tenant SaaS — currently owning the frontend of",
   bioLinks: [
     { label: "RepairCMS", href: "https://repaircms.com" },
     { label: "Asklytics", href: "https://asklytics.app" },
   ],
-  bioSuffix:
-    ", my own AI analytics product, on the side.",
-  email: "dev.alamin@gmail.com",
+  bioSuffix: ", my AI analytics side project, on the side.",
+  email: "dev.alaminpk@gmail.com",
   whatsapp: "https://wa.me/8801782488123?text=Hi%20Alamin",
   github: "https://github.com/Alaminpk1",
-  linkedin: "https://www.linkedin.com/in/alamin/",
+  linkedin: "https://www.linkedin.com/in/devalaminpramanik/",
   twitter: "https://x.com/alamin",
   themeKey: "alamin-theme",
   seo: {
     siteUrl,
-    title: "Alamin — Senior Full-Stack Engineer | NestJS · React · AI/ML",
+    title: "Alamin Pramanik — Frontend Developer | React · Next.js · TypeScript",
     description:
-      "Alamin, senior full-stack engineer building multi-tenant SaaS with NestJS, React, Next.js, MongoDB, AWS, and AI/ML — creator of RepairCMS and Asklytics.",
+      "Alamin Pramanik, frontend developer building React and Next.js interfaces for multi-tenant SaaS — design systems, performance, and accessibility at RepairCMS and beyond.",
     keywords: [
-      "Alamin",
-      "full-stack developer",
-      "senior full-stack engineer",
-      "NestJS developer",
+      "Alamin Pramanik",
+      "frontend developer",
       "React developer",
       "Next.js developer",
-      "SaaS developer",
-      "AI/ML integration",
-      "MongoDB",
-      "AWS",
-      "OpenAI",
-      "web development",
+      "TypeScript developer",
+      "UI engineer",
+      "design systems",
+      "web performance",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Core Web Vitals",
+      "SEO",
     ],
-    ogImage: "/images/asklytics.png",
+    ogImage: "/images/repaircms.png",
     twitterHandle: "@alamin",
-    jobTitle: "Senior Full-Stack Engineer",
+    jobTitle: "Frontend Developer",
     knowsAbout: [
-      "NestJS",
       "React",
       "Next.js",
       "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Design Systems",
+      "UI/UX Design",
+      "Web Accessibility (WCAG)",
+      "Core Web Vitals",
+      "Component Architecture",
+      "Performance Optimization",
+      "Node.js",
+      "NestJS",
       "MongoDB",
       "AWS",
-      "SaaS development",
-      "AI/ML integration",
-      "OpenAI",
-      "Stripe",
-      "Socket.IO",
-      "Full-stack web development",
-      "Multi-tenant architecture",
-      "NLP",
-      "RAG",
     ],
   },
 };
 
 export const status = {
-  role: "Senior Full-Stack Engineer",
+  role: "Frontend Developer",
   at: "Candy Melon Software GmbH 🇦🇹",
   exp: "5+ years",
-  serving: "60,000+ clients in prod",
+  serving: "1,100+ businesses in prod",
   building: "asklytics.app (indie)",
   availability: "● open to senior roles + freelance",
 };
@@ -81,32 +81,23 @@ export const navLinks = [
 
 export const experience = [
   {
-    title: "Senior Full-Stack Engineer",
-    period: "Feb 2026 – Present",
+    title: "Frontend Developer",
+    period: "Mar 2025 – Present",
     company: "Candy Melon Software GmbH",
     location: "Austria · Remote",
     description:
-      "Promoted to Senior. Leading full architecture of RepairCMS — multi-tenant enterprise SaaS for repair/service businesses. Architected CRM, POS, inventory, cashbook, form-builder, quotes, and customer portal; integrated Stripe, Lexware, Typeform, and AWS SES/S3/EC2.",
-    tags: ["NestJS", "Next.js", "React", "MongoDB", "TypeScript", "AWS", "Stripe"],
+      "Own the RepairCMS frontend, serving 1,100+ repair and service businesses. Cut perceived load time 35% through optimization, architected an internationalization layer across four languages, built and maintain the design system, shipped a schema-driven form builder, and redesigned the KPI dashboard.",
+    tags: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
     active: true,
   },
   {
-    title: "Full-Stack Engineer",
-    period: "Mar 2025 – Feb 2026",
-    company: "Candy Melon Software GmbH",
-    location: "Austria · Remote",
-    description:
-      "Joined as team lead for RepairCMS; drove feature delivery across frontend and backend, established CI/CD via GitHub Actions, and managed AWS cloud operations.",
-    tags: ["NestJS", "React", "GitHub Actions", "AWS"],
-  },
-  {
-    title: "Full-Stack Developer (MERN)",
-    period: "Feb 2023 – Mar 2025",
+    title: "Frontend Developer",
+    period: "Mar 2023 – Mar 2025",
     company: "Al Jaami Technologies",
     location: "UK · Remote",
     description:
-      "Led end-to-end delivery of client-facing platforms — application architecture, React frontends, NestJS backends, HubSpot and Userback integrations.",
-    tags: ["NestJS", "React", "Next.js", "MongoDB", "HubSpot"],
+      "Delivered three client-facing platforms, promoted twice in two years. Built a virtualized search experience over 20M+ records, an SEO-focused Next.js marketing site, and PortfolioPro (a project showcase app); optimized 100+ images and integrated HubSpot analytics and Socket.IO real-time collaboration.",
+    tags: ["React", "Next.js", "TypeScript", "Redux", "Socket.IO"],
   },
   {
     title: "MERN Stack Developer",
@@ -135,15 +126,15 @@ export const projects = [
     url: "https://repaircms.com",
     urlLabel: "repaircms.com",
     description:
-      "Multi-tenant SaaS for repair & service businesses, architected from the ground up. Stripe subscription billing with webhooks, Lexware accounting sync, transactional email via AWS SES.",
+      "Multi-tenant SaaS for repair & service businesses. I own the frontend — design system, four-language i18n layer, a schema-driven form builder, and a KPI dashboard redesign, serving 1,100+ businesses in production.",
     metrics: [
-      { value: "7", label: "core modules" },
-      { value: "5+", label: "integrations" },
+      { value: "1,100+", label: "businesses served" },
+      { value: "35%", label: "faster load time" },
     ],
-    tags: ["NestJS", "Next.js", "MongoDB", "Stripe", "AWS"],
+    tags: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
     image: "/images/repaircms.png",
     imageAlt:
-      "RepairCMS enterprise SaaS dashboard built with NestJS, Next.js, MongoDB, Stripe, and AWS",
+      "RepairCMS enterprise SaaS dashboard frontend built with React, Next.js, TypeScript, and Redux Toolkit",
   },
   {
     name: "Asklytics",
@@ -167,15 +158,15 @@ export const projects = [
     url: "https://app.londonschoolofexcellence.com/",
     urlLabel: "londonschoolofexcellence.com",
     description:
-      "Education CRM with a 5-tier role-based access system and real-time collaboration via Socket.IO — multiple consultants editing the same student record with live updates.",
+      "Education CRM frontend with a 5-tier role-based access system and real-time collaboration via Socket.IO — multiple consultants editing the same student record with live updates.",
     metrics: [
       { value: "5-tier", label: "RBAC system" },
       { value: "live", label: "Socket.IO collab" },
     ],
-    tags: ["NestJS", "Socket.IO", "Next.js", "MongoDB"],
+    tags: ["React", "Next.js", "Socket.IO", "TypeScript"],
     image: "/images/lsoe-crm.png",
     imageAlt:
-      "LSOE CRM education platform with NestJS, Socket.IO real-time collaboration, and Next.js frontend",
+      "LSOE CRM education platform frontend with Socket.IO real-time collaboration built with React and Next.js",
   },
   {
     name: "SRH",
@@ -183,15 +174,15 @@ export const projects = [
     url: "https://www.srhlabsa.com",
     urlLabel: "srhlabsa.com",
     description:
-      "Corporate platform for a Saudi engineering & construction consultancy — structural investigations, geotechnical analysis, and environmental assessments.",
+      "Arabic-first, RTL bilingual (AR/EN) platform for a Saudi geotechnical and materials testing consultancy — 14 service pages, blog, careers, and a consultation flow. Owned technical SEO and Core Web Vitals.",
     metrics: [
-      { value: "60k+", label: "clients served" },
-      { value: "70k+", label: "projects delivered" },
+      { value: "14", label: "service pages" },
+      { value: "AR/EN", label: "RTL bilingual" },
     ],
-    tags: ["Next.js", "TypeScript", "Tailwind", "Shadcn UI", "AWS"],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SEO"],
     image: "/images/srh-homepage.png",
     imageAlt:
-      "SRH corporate engineering platform built with Next.js, TypeScript, Tailwind CSS, and AWS",
+      "SRH engineering consultancy platform, Arabic-first RTL bilingual site built with Next.js, React, and TypeScript",
   },
 ];
 
@@ -226,55 +217,50 @@ export const skills = [
   {
     group: "frontend/",
     items:
-      "React (expert) · Next.js · Redux Toolkit · TanStack Query · Tailwind · Shadcn UI · Jest/RTL",
+      "React · Next.js (SSR/SSG/App Router) · TypeScript · Redux Toolkit & RTK Query · React Hook Form · Tailwind CSS · SCSS · Framer Motion",
   },
   {
-    group: "backend/",
+    group: "design/",
     items:
-      "NestJS (expert) · Node/Express (expert) · Socket.IO · class-validator · REST & webhooks",
+      "Figma · UI/UX Design · Design Systems · Responsive & Mobile-First Layout · Data Visualization",
   },
   {
-    group: "data+cloud/",
+    group: "quality/",
     items:
-      "MongoDB/Mongoose (expert) · Firebase · AWS EC2/S3/SES · Nginx · PM2 · GitHub Actions CI/CD",
-  },
-  {
-    group: "payments/",
-    items: "Stripe · RazorPay · SSLCOMMERZ · NOWPayments · crypto gateways",
-  },
-  {
-    group: "ai-ml/",
-    items:
-      "OpenAI integration · Python (FastAPI/Flask) · TensorFlow · PyTorch · NLP · RAG (exploring)",
+      "Component Architecture · Web Accessibility (WCAG) · Core Web Vitals · Performance Optimization · Jest/RTL",
   },
   {
     group: "integrations/",
+    items: "REST APIs · WebSockets/Socket.IO · JWT Authentication · Stripe",
+  },
+  {
+    group: "backend+cloud/",
     items:
-      "Typeform · Lexware · HubSpot · Cloudinary · Telegram Bot API · Sender",
+      "Node.js · Express · NestJS · MongoDB/Mongoose · AWS EC2/S3/SES · Nginx · GitHub Actions CI/CD · Linux",
   },
 ];
 
 export const services = [
   {
-    id: "01 · saas",
-    title: "SaaS Application Development",
+    id: "01 · frontend",
+    title: "Frontend Application Development",
     description:
-      "Multi-tenant architecture, auth flows & role-based access, Stripe subscription billing with webhooks, CI/CD to AWS.",
-    tags: ["NestJS", "Next.js", "MongoDB", "Stripe", "AWS"],
+      "React & Next.js apps — SSR/SSG/App Router, design systems, reusable component architecture, state management with Redux Toolkit.",
+    tags: ["React", "Next.js", "TypeScript", "Redux Toolkit"],
   },
   {
-    id: "02 · ai-ml",
-    title: "AI / ML Integration",
+    id: "02 · design-systems",
+    title: "Design Systems & UI Engineering",
     description:
-      "ML microservices with FastAPI/Flask, NLP pipelines, predictive analytics, and RAG-powered search — wired into NestJS/React apps.",
-    tags: ["Python", "OpenAI", "NLP", "RAG", "FastAPI"],
+      "Figma-to-code component libraries, responsive & mobile-first layouts, accessible interfaces built to scale across products.",
+    tags: ["Figma", "Design Systems", "Tailwind CSS", "WCAG"],
   },
   {
-    id: "03 · perf",
-    title: "Performance Engineering",
+    id: "03 · performance-seo",
+    title: "Performance & SEO Engineering",
     description:
-      "Tokenized search over 20M+ records with sub-second response, MongoDB aggregation tuning, Redis caching, load balancing.",
-    tags: ["MongoDB", "Redis", "Nginx", "PM2"],
+      "Core Web Vitals tuning, image/bundle optimization, and technical SEO — from 100+ image optimizations to virtualized search over 20M+ records.",
+    tags: ["Core Web Vitals", "SEO", "next/image", "Performance"],
   },
 ];
 

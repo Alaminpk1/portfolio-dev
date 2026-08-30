@@ -9,7 +9,7 @@ export default function Footer() {
       style={{ padding: "24px 0 40px", borderTop: "1px solid var(--seline)" }}
     >
       <span className="mono faint fs12">
-        © {year} {site.fullName} — built with caffeine and NestJS
+        © {year} {site.fullName} — built with caffeine and Next.js
       </span>
       <div className="fx gap16">
         <a

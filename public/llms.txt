@@ -1,25 +1,25 @@
-# Alamin — Senior Full-Stack Engineer
+# Alamin Pramanik — Frontend Developer
 
-> Alamin — senior full-stack engineer specializing in NestJS, React, Next.js, MongoDB, AWS, SaaS, and AI/ML web development.
+> Alamin Pramanik — frontend developer specializing in React, Next.js, TypeScript, and design systems.
 
 ## About
 
-Alamin is a senior full-stack engineer with 5+ years of experience building multi-tenant SaaS platforms serving 60,000+ clients in production. Currently leading architecture at Candy Melon Software GmbH (Austria) for RepairCMS, and building Asklytics — an indie AI analytics product — on the side.
+Alamin Pramanik is a frontend developer with 3+ years of experience building React and Next.js interfaces for multi-tenant SaaS. Currently owns the frontend of RepairCMS at Candy Melon Software GmbH (Austria), serving 1,100+ repair and service businesses in production.
 
-Expertise: NestJS, React, Next.js, TypeScript, MongoDB, AWS (EC2/S3/SES), Stripe, Socket.IO, OpenAI integration, NLP, RAG, SaaS architecture, CI/CD, performance engineering.
+Expertise: React, Next.js, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS, SCSS, Framer Motion, Figma, design systems, accessibility (WCAG), Core Web Vitals, Node.js, NestJS, MongoDB, AWS.
 
 ## Projects
 
-- [RepairCMS](https://repaircms.com) — Multi-tenant enterprise SaaS for repair/service businesses. NestJS, Next.js, MongoDB, Stripe, AWS. CRM, POS, inventory, cashbook, form-builder, quotes, customer portal.
-- [Asklytics](https://asklytics.app) — AI-driven analytics SaaS with natural-language query engine (NL→SQL). Built solo with NestJS, OpenAI, Next.js, MongoDB.
-- [LSOE CRM](https://app.londonschoolofexcellence.com/) — Education CRM with 5-tier RBAC and real-time Socket.IO collaboration. NestJS, Next.js, MongoDB.
-- [SRH](https://www.srhlabsa.com) — Corporate platform for Saudi engineering consultancy. Next.js, TypeScript, Tailwind, AWS.
+- [RepairCMS](https://repaircms.com) — Multi-tenant enterprise SaaS for repair/service businesses. React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS.
+- [RepairCMS B2B](https://b2b.repaircms.com) — Business console for repair/service businesses: schema-driven forms, KPI dashboard, barcode/QR, PDF quotes, four-language i18n.
+- [RepairCMS Customer Portal](https://tracking.repaircms.com) — Customer-facing portal for real-time repair status, booking, and SEPA QR payments.
+- [SRH](https://www.srhlabsa.com) — Arabic-first, RTL bilingual platform for a Saudi engineering consultancy.
 
 ## Services
 
-- SaaS Application Development — multi-tenant architecture, Stripe billing, CI/CD to AWS
-- AI / ML Integration — FastAPI/Flask microservices, NLP, RAG-powered search, OpenAI
-- Performance Engineering — MongoDB aggregation tuning, Redis caching, sub-second search over 20M+ records
+- Frontend Application Development — React & Next.js apps, design systems, component architecture
+- Design Systems & UI Engineering — Figma-to-code, responsive & mobile-first, accessible interfaces
+- Performance & SEO Engineering — Core Web Vitals, image/bundle optimization, technical SEO
 
 ## Writing
 
@@ -28,12 +28,12 @@ Expertise: NestJS, React, Next.js, TypeScript, MongoDB, AWS (EC2/S3/SES), Stripe
 
 ## Contact
 
-- Email: dev.alamin@gmail.com
+- Email: dev.alaminpk@gmail.com
 - GitHub: https://github.com/Alaminpk1
-- LinkedIn: https://www.linkedin.com/in/alamin/
+- LinkedIn: https://www.linkedin.com/in/devalaminpramanik/
 - Twitter/X: https://x.com/alamin
 - Portfolio: https://alamin.dev
 
 ## Topics
 
-NestJS, React, Next.js, TypeScript, MongoDB, AWS, SaaS, AI/ML, OpenAI, web development, full-stack developer, multi-tenant architecture, Stripe, Socket.IO, NLP, RAG, performance engineering, MERN stack
+React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS, frontend developer, design systems, UI engineering, web performance, Core Web Vitals, accessibility, MongoDB, AWS, MERN stack

@@ -20,10 +20,6 @@ export default function Hero() {
             {site.bio}{" "}
             <a href={site.bioLinks[0].href} target="_blank" rel="noopener noreferrer">
               {site.bioLinks[0].label}
-            </a>{" "}
-            in Austria, and shipping{" "}
-            <a href={site.bioLinks[1].href} target="_blank" rel="noopener noreferrer">
-              {site.bioLinks[1].label}
             </a>
             {site.bioSuffix}
           </p>
@@ -82,10 +78,6 @@ export default function Hero() {
             <div>
               <span className="accent">➜</span> <span className="dim">serving:</span>{" "}
               {status.serving}
-            </div>
-            <div>
-              <span className="accent">➜</span> <span className="dim">building:</span>{" "}
-              {status.building}
             </div>
             <div>
               <span className="accent">➜</span> <span className="dim">status:</span>{" "}

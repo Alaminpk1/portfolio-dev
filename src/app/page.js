@@ -17,11 +17,10 @@ export default function Home() {
       <Nav />
       <main className="page" id="top">
         <p className="sr-only">
-          Developer Alamin is a senior full-stack engineer specializing in
-          NestJS, React, Next.js, MongoDB, AWS, SaaS development, and AI/ML web
-          integration. Alamin builds multi-tenant platforms including RepairCMS
-          and Asklytics, an AI analytics product with natural-language query
-          capabilities.
+          Alamin Pramanik is a frontend developer specializing in React,
+          Next.js, TypeScript, and design systems. He owns the frontend of
+          RepairCMS, a multi-tenant SaaS platform serving 1,100+ repair and
+          service businesses.
         </p>
         <Hero />
         <Experience />

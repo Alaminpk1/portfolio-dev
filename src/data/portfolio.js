@@ -7,11 +7,8 @@ export const site = {
   tagline:
     "Frontend Developer — React · Next.js · TypeScript · Redux Toolkit · Tailwind CSS",
   bio: "I build fast, accessible frontends for multi-tenant SaaS — currently owning the frontend of",
-  bioLinks: [
-    { label: "RepairCMS", href: "https://repaircms.com" },
-    { label: "Asklytics", href: "https://asklytics.app" },
-  ],
-  bioSuffix: ", my AI analytics side project, on the side.",
+  bioLinks: [{ label: "RepairCMS", href: "https://repaircms.com" }],
+  bioSuffix: ", serving 1,100+ repair and service businesses in Austria.",
   email: "dev.alaminpk@gmail.com",
   whatsapp: "https://wa.me/8801782488123?text=Hi%20Alamin",
   github: "https://github.com/Alaminpk1",
@@ -64,9 +61,8 @@ export const site = {
 export const status = {
   role: "Frontend Developer",
   at: "Candy Melon Software GmbH 🇦🇹",
-  exp: "5+ years",
+  exp: "3+ years",
   serving: "1,100+ businesses in prod",
-  building: "asklytics.app (indie)",
   availability: "● open to senior roles + freelance",
 };
 
@@ -100,22 +96,13 @@ export const experience = [
     tags: ["React", "Next.js", "TypeScript", "Redux", "Socket.IO"],
   },
   {
-    title: "MERN Stack Developer",
-    period: "Aug 2021 – Oct 2022",
-    company: "BDEMR Solutions Corp.",
-    location: "Canada · Remote",
+    title: "Frontend Developer — Intern",
+    period: "Jan – Mar 2023",
+    company: "Al Jaami Technologies",
+    location: "UK · Remote",
     description:
-      "Built patient portal and healthcare data dashboards; developed role-based admin systems (admin, user, super-admin).",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-  },
-  {
-    title: "MERN Stack Developer — Intern",
-    period: "Jun – Aug 2021",
-    company: "Applore Technologies",
-    location: "India · Remote",
-    description:
-      "Built UI for 'Applore Book Your Test' medical testing booking app — responsive layouts, form validation, RESTful API integrations.",
-    tags: ["React", "JavaScript", "SCSS", "REST APIs"],
+      "Supported the frontend team — built UI components, fixed bugs, and ramped up on the React/Next.js codebase before converting to the full-time Frontend Developer role.",
+    tags: ["React", "Next.js", "JavaScript"],
   },
 ];
 
@@ -137,36 +124,30 @@ export const projects = [
       "RepairCMS enterprise SaaS dashboard frontend built with React, Next.js, TypeScript, and Redux Toolkit",
   },
   {
-    name: "Asklytics",
-    category: "indie product",
-    url: "https://asklytics.app",
-    urlLabel: "asklytics.app",
+    name: "RepairCMS B2B",
+    category: "business console",
+    url: "https://b2b.repaircms.com",
+    urlLabel: "b2b.repaircms.com",
     description:
-      "AI-driven analytics SaaS I built solo — a natural-language query engine that turns plain-English business questions into instant data insights. No dashboards required.",
+      "The console repair & service businesses run day-to-day — schema-driven intake forms with device pattern-lock capture, barcode/QR labeling, PDF quotes and invoices, SEPA payment QR codes, and a KPI dashboard, in four languages.",
     metrics: [
-      { value: "NL→SQL", label: "query engine" },
-      { value: "solo", label: "design → prod" },
+      { value: "4", label: "languages (i18n)" },
+      { value: "PDF/QR", label: "quotes & barcodes" },
     ],
-    tags: ["NestJS", "OpenAI", "Next.js", "MongoDB"],
-    image: "/images/asklytics.png",
-    imageAlt:
-      "Asklytics AI analytics platform with OpenAI natural-language query engine built with NestJS and Next.js",
+    tags: ["React", "Redux Toolkit", "i18next", "Chart.js"],
   },
   {
-    name: "LSOE CRM",
-    category: "client platform",
-    url: "https://app.londonschoolofexcellence.com/",
-    urlLabel: "londonschoolofexcellence.com",
+    name: "RepairCMS Customer Portal",
+    category: "customer portal",
+    url: "https://tracking.repaircms.com",
+    urlLabel: "tracking.repaircms.com",
     description:
-      "Education CRM frontend with a 5-tier role-based access system and real-time collaboration via Socket.IO — multiple consultants editing the same student record with live updates.",
+      "The self-service portal RepairCMS's end customers use to track repair status in real time, book appointments, and pay invoices via SEPA QR.",
     metrics: [
-      { value: "5-tier", label: "RBAC system" },
-      { value: "live", label: "Socket.IO collab" },
+      { value: "real-time", label: "status updates" },
+      { value: "SEPA QR", label: "invoice payments" },
     ],
-    tags: ["React", "Next.js", "Socket.IO", "TypeScript"],
-    image: "/images/lsoe-crm.png",
-    imageAlt:
-      "LSOE CRM education platform frontend with Socket.IO real-time collaboration built with React and Next.js",
+    tags: ["Next.js", "Redux Toolkit", "next-intl", "Socket.IO"],
   },
   {
     name: "SRH",
@@ -192,6 +173,12 @@ export const moreProjects = [
     name: "Signaly",
     stack: "Next.js · NestJS · RazorPay",
     url: "https://signaly.io",
+  },
+  {
+    year: "2024",
+    name: "LSOE CRM",
+    stack: "React · Next.js · Socket.IO",
+    url: "https://app.londonschoolofexcellence.com/",
   },
   {
     year: "2024",

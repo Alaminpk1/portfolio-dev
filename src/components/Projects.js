@@ -2,6 +2,14 @@ import Image from "next/image";
 import { moreProjects, projects } from "@/data/portfolio";
 
 function ProjectImage({ project }) {
+  if (!project.image) {
+    return (
+      <div className="ph mono" role="img" aria-label={`${project.name} preview coming soon`}>
+        preview coming soon
+      </div>
+    );
+  }
+
   return (
     <Image
       src={project.image}

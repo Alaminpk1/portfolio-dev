@@ -4,7 +4,7 @@ Personal portfolio site of **Alamin Pramanik** — Frontend Developer (React · 
 
 Single-page, server-rendered portfolio built with the Next.js App Router. All content is data-driven from one file, styling is a hand-rolled CSS utility layer on top of Tailwind v4, and the whole site is tuned for SEO, AI discoverability and Core Web Vitals.
 
-**Live:** https://alamin.dev
+**Live:** [https://alamin.dev](https://alamin-alpha.vercel.app/)
 
 ---
 

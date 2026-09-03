@@ -2,31 +2,27 @@
 
 import { useEffect, useRef } from "react";
 
-export default function HeroGlow() {
+export default function CursorGlow() {
   const ref = useRef(null);
 
   useEffect(() => {
     const el = ref.current;
-    const section = el?.closest(".hero");
-    if (!el || !section) return;
+    if (!el) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     let frame = null;
 
     function handleMove(event) {
-      const rect = section.getBoundingClientRect();
-      const x = event.clientX - rect.left;
-      const y = event.clientY - rect.top;
       if (frame) cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
-        el.style.left = `${x}px`;
-        el.style.top = `${y}px`;
+        el.style.left = `${event.clientX}px`;
+        el.style.top = `${event.clientY}px`;
       });
     }
 
-    section.addEventListener("pointermove", handleMove);
+    window.addEventListener("pointermove", handleMove);
     return () => {
-      section.removeEventListener("pointermove", handleMove);
+      window.removeEventListener("pointermove", handleMove);
       if (frame) cancelAnimationFrame(frame);
     };
   }, []);

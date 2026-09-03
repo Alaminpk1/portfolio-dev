@@ -1,6 +1,8 @@
 import { writing } from "@/data/portfolio";
 
 export default function Writing() {
+  if (writing.length === 0) return null;
+
   return (
     <section className="sec" id="writing">
       <p className="mono accent shead m0">05 · $ tail -n 2 writing/</p>

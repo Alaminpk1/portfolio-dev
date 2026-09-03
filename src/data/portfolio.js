@@ -83,7 +83,7 @@ export const experience = [
     location: "Austria · Remote",
     description:
       "Own the RepairCMS frontend, serving 1,100+ repair and service businesses. Cut perceived load time 35% through optimization, architected an internationalization layer across four languages, built and maintain the design system, shipped a schema-driven form builder, and redesigned the KPI dashboard.",
-    tags: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+    tags: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS", "SCSS", "Framer Motion"],
     active: true,
   },
   {
@@ -93,7 +93,7 @@ export const experience = [
     location: "UK · Remote",
     description:
       "Delivered three client-facing platforms, promoted twice in two years. Built a virtualized search experience over 20M+ records, an SEO-focused Next.js marketing site, and PortfolioPro (a project showcase app); optimized 100+ images and integrated HubSpot analytics and Socket.IO real-time collaboration.",
-    tags: ["React", "Next.js", "TypeScript", "Redux", "Socket.IO"],
+    tags: ["React", "Next.js", "TypeScript", "Redux", "Socket.IO", "SCSS", "Tailwind CSS"],
   },
   {
     title: "Frontend Developer — Intern",
@@ -124,6 +124,22 @@ export const projects = [
       "RepairCMS enterprise SaaS dashboard frontend built with React, Next.js, TypeScript, and Redux Toolkit",
   },
   {
+    name: "Al Jaami Technologies",
+    category: "company website",
+    url: "https://www.aljaami.co.uk",
+    urlLabel: "aljaami.co.uk",
+    description:
+      "The SEO-focused Next.js marketing site for Al Jaami Technologies, a full-service IT agency — service pages for web development, design, content, and SEO, built for organic search performance.",
+    metrics: [
+      { value: "SEO-first", label: "marketing site" },
+      { value: "6", label: "core sections" },
+    ],
+    tags: ["Next.js", "React", "TypeScript", "SEO"],
+    image: "/images/aljaami.png",
+    imageAlt:
+      "Al Jaami Technologies agency marketing site built with Next.js, React, and TypeScript",
+  },
+  {
     name: "RepairCMS B2B",
     category: "business console",
     url: "https://b2b.repaircms.com",
@@ -135,6 +151,9 @@ export const projects = [
       { value: "PDF/QR", label: "quotes & barcodes" },
     ],
     tags: ["React", "Redux Toolkit", "i18next", "Chart.js"],
+    image: "/images/repaircms-b2b.png",
+    imageAlt:
+      "RepairCMS B2B business console dashboard built with React, Redux Toolkit, i18next, and Chart.js",
   },
   {
     name: "RepairCMS Customer Portal",
@@ -148,22 +167,9 @@ export const projects = [
       { value: "SEPA QR", label: "invoice payments" },
     ],
     tags: ["Next.js", "Redux Toolkit", "next-intl", "Socket.IO"],
-  },
-  {
-    name: "SRH",
-    category: "client platform",
-    url: "https://www.srhlabsa.com",
-    urlLabel: "srhlabsa.com",
-    description:
-      "Arabic-first, RTL bilingual (AR/EN) platform for a Saudi geotechnical and materials testing consultancy — 14 service pages, blog, careers, and a consultation flow. Owned technical SEO and Core Web Vitals.",
-    metrics: [
-      { value: "14", label: "service pages" },
-      { value: "AR/EN", label: "RTL bilingual" },
-    ],
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SEO"],
-    image: "/images/srh-homepage.png",
+    image: "/images/customerportal.png",
     imageAlt:
-      "SRH engineering consultancy platform, Arabic-first RTL bilingual site built with Next.js, React, and TypeScript",
+      "RepairCMS Customer Portal for real-time repair tracking built with Next.js and Socket.IO",
   },
 ];
 
@@ -173,6 +179,12 @@ export const moreProjects = [
     name: "Signaly",
     stack: "Next.js · NestJS · RazorPay",
     url: "https://signaly.io",
+  },
+  {
+    year: "2025",
+    name: "SRH",
+    stack: "Next.js · React · TypeScript",
+    url: "https://www.srhlabsa.com",
   },
   {
     year: "2024",
@@ -253,17 +265,10 @@ export const services = [
 
 export const writing = [
   {
-    year: "2024",
+    year: "2026",
     title:
-      "Comprehensive Guide to Setting Up a CI/CD Pipeline for a MERN Stack Application Using GitHub Actions and VPS",
-    url: "https://medium.com/",
-    source: "medium ↗",
-  },
-  {
-    year: "2024",
-    title:
-      "Setting Up a VPS for MERN Stack Application and Installing SSL Certificate",
-    url: "https://medium.com/",
+      "Build and Deploy Your Own Design System: Atomic Design, React, Storybook, Tailwind",
+    url: "https://medium.com/@dev.alaminpk/build-and-deploy-your-own-design-system-atomic-design-react-storybook-tailwind-046b6face53c",
     source: "medium ↗",
   },
 ];

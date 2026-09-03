@@ -13,18 +13,13 @@ Expertise: React, Next.js, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS, S
 - [RepairCMS](https://repaircms.com) — Multi-tenant enterprise SaaS for repair/service businesses. React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS.
 - [RepairCMS B2B](https://b2b.repaircms.com) — Business console for repair/service businesses: schema-driven forms, KPI dashboard, barcode/QR, PDF quotes, four-language i18n.
 - [RepairCMS Customer Portal](https://tracking.repaircms.com) — Customer-facing portal for real-time repair status, booking, and SEPA QR payments.
-- [SRH](https://www.srhlabsa.com) — Arabic-first, RTL bilingual platform for a Saudi engineering consultancy.
+- [Al Jaami Technologies](https://www.aljaami.co.uk) — SEO-focused Next.js marketing site for a full-service IT agency.
 
 ## Services
 
 - Frontend Application Development — React & Next.js apps, design systems, component architecture
 - Design Systems & UI Engineering — Figma-to-code, responsive & mobile-first, accessible interfaces
 - Performance & SEO Engineering — Core Web Vitals, image/bundle optimization, technical SEO
-
-## Writing
-
-- CI/CD Pipeline for MERN Stack with GitHub Actions and VPS (Medium, 2024)
-- VPS Setup and SSL Certificate for MERN Stack (Medium, 2024)
 
 ## Contact
 

@@ -1,11 +1,9 @@
 import { site, status } from "@/data/portfolio";
-import HeroGlow from "./HeroGlow";
 import ScrambleText from "./ScrambleText";
 
 export default function Hero() {
   return (
     <section className="sec hero">
-      <HeroGlow />
       <div className="grid herogrid posrel">
         <div className="herocol">
           <p className="mono accent fs13 m0">$ whoami</p>

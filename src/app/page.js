@@ -1,4 +1,5 @@
 import Nav from "@/components/Nav";
+import CursorGlow from "@/components/CursorGlow";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
       <a href="#top" className="skip-link mono">
         skip to content
       </a>
+      <CursorGlow />
       <Nav />
       <main className="page" id="top">
         <p className="sr-only">

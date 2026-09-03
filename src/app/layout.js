@@ -2,7 +2,7 @@ import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/data/portfolio";
-
+import { Analytics } from '@vercel/analytics/next';
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
   subsets: ["latin"],
@@ -85,6 +85,7 @@ export default function RootLayout({ children }) {
       <body>
         <JsonLd />
         {children}
+        <Analytics />
       </body>
     </html>
   );

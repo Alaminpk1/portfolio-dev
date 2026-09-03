@@ -176,12 +176,6 @@ export const projects = [
 export const moreProjects = [
   {
     year: "2025",
-    name: "Signaly",
-    stack: "Next.js · NestJS · RazorPay",
-    url: "https://signaly.io",
-  },
-  {
-    year: "2025",
     name: "SRH",
     stack: "Next.js · React · TypeScript",
     url: "https://www.srhlabsa.com",
@@ -203,6 +197,12 @@ export const moreProjects = [
     name: "Sakani",
     stack: "MERN · Google Maps",
     url: "https://sakani.tn",
+  },
+  {
+    year: "2025",
+    name: "Signaly",
+    stack: "Next.js · NestJS · RazorPay",
+    url: "https://signaly.io",
   },
   {
     year: "2022",

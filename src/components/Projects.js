@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { moreProjects, projects } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 function ProjectImage({ project }) {
   if (!project.image) {
@@ -26,7 +27,9 @@ export default function Projects() {
   return (
     <section className="sec" id="projects">
       <p className="mono accent shead m0">02 · $ ls projects/</p>
-      <h2 className="h2">Selected work</h2>
+      <h2 className="h2">
+        <ScrambleText text="Selected work" />
+      </h2>
       <div className="grid grid2" style={{ marginTop: 40 }}>
         {projects.map((project) => (
           <article key={project.name} className="card col reveal" style={{ gap: 14 }}>

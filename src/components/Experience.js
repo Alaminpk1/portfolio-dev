@@ -1,10 +1,13 @@
 import { experience } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 export default function Experience() {
   return (
     <section className="sec" id="experience">
       <p className="mono accent shead m0">01 · $ cat experience.log</p>
-      <h2 className="h2">Experience</h2>
+      <h2 className="h2">
+        <ScrambleText text="Experience" />
+      </h2>
       <div className="col gap24" style={{ marginTop: 40 }}>
         {experience.map((job) => (
           <article

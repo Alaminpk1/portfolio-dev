@@ -1,4 +1,5 @@
 import { site } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 export default function Contact() {
   return (
@@ -9,7 +10,7 @@ export default function Contact() {
     >
       <p className="mono accent shead m0">06 · $ ./contact.sh</p>
       <h2 className="h2" style={{ fontSize: 44 }}>
-        Let&apos;s build something.
+        <ScrambleText text="Let's build something." />
       </h2>
       <p
         className="dim fs16"

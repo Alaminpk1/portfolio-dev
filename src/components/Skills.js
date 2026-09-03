@@ -1,10 +1,13 @@
 import { skills } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 export default function Skills() {
   return (
     <section className="sec" id="skills">
       <p className="mono accent shead m0">03 · $ npx skills --list</p>
-      <h2 className="h2">Stack</h2>
+      <h2 className="h2">
+        <ScrambleText text="Stack" />
+      </h2>
       <div className="grid grid3" style={{ marginTop: 40 }}>
         {skills.map((skill) => (
           <div key={skill.group} className="card reveal" style={{ padding: 22 }}>

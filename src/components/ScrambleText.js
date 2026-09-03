@@ -4,6 +4,10 @@ import { useCallback, useEffect, useRef } from "react";
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+// Hold off until the heading has cleared the bottom edge by this much, so the
+// scramble plays where the reader is looking instead of off the fold.
+const REVEAL_OFFSET_PX = 140;
+
 export default function ScrambleText({ text, ...props }) {
   const ref = useRef(null);
   const intervalRef = useRef(null);
@@ -20,7 +24,7 @@ export default function ScrambleText({ text, ...props }) {
       el.textContent = text
         .split("")
         .map((char, index) => {
-          if (char === " ") return " ";
+          if (!/[a-z]/i.test(char)) return char;
           if (index < iteration) return text[index];
           return LETTERS[Math.floor(Math.random() * LETTERS.length)];
         })
@@ -45,7 +49,7 @@ export default function ScrambleText({ text, ...props }) {
           observer.disconnect();
         }
       },
-      { threshold: 0.4 },
+      { threshold: 0.6, rootMargin: `0px 0px -${REVEAL_OFFSET_PX}px 0px` },
     );
     observer.observe(el);
 

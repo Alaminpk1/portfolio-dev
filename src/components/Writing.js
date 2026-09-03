@@ -1,4 +1,5 @@
 import { writing } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 export default function Writing() {
   if (writing.length === 0) return null;
@@ -6,7 +7,9 @@ export default function Writing() {
   return (
     <section className="sec" id="writing">
       <p className="mono accent shead m0">05 · $ tail -n 2 writing/</p>
-      <h2 className="h2">Writing</h2>
+      <h2 className="h2">
+        <ScrambleText text="Writing" />
+      </h2>
       <div className="col gap12" style={{ marginTop: 32 }}>
         {writing.map((post) => (
           <a

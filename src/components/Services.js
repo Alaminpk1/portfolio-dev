@@ -1,10 +1,13 @@
 import { services } from "@/data/portfolio";
+import ScrambleText from "./ScrambleText";
 
 export default function Services() {
   return (
     <section className="sec" id="services">
       <p className="mono accent shead m0">04 · $ cat services.txt</p>
-      <h2 className="h2">Services</h2>
+      <h2 className="h2">
+        <ScrambleText text="Services" />
+      </h2>
       <div className="grid grid3" style={{ marginTop: 40 }}>
         {services.map((service) => (
           <article key={service.id} className="card col reveal" style={{ gap: 12, padding: 24 }}>
